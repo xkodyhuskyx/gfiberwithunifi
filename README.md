@@ -1,2 +1,2 @@
-# gfiberwithunifi
-A script designed toenable Google Fiber static IP blocks on UniFi equipment.
+# Google Fiber static IP with UniFi
+A script designed to enable Google Fiber static IP blocks on UniFi equipment.
