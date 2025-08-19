@@ -64,13 +64,14 @@ function Read-Host-Required([string]$Prompt, [bool]$Secured = $false) {
 # ---------------------- Define Script Variables ----------------------
 $scriptdisclaimer = @"
 This script is provided "AS IS" without warranty of any kind,
-express or implied. The author (xkodyhuskyx) shall not be held
-liable for any damages, loss of data, system outages, or any
-other consequences resulting from the use, misuse, or inability
-to use this script. Use at your own risk.
+express or implied. The author shall not be held liable for
+any damages, loss of data, system outages, or any other
+consequences resulting from the use, misuse, or inability to
+use this script. Use at your own risk.
 
 Only use this script if you fully understand the changes that
-will be made to your equipment, have fully read the README at
+will be made to your equipment, have fully read the README and
+DISCLAIMER available at
 https://github.com/xkodyhuskyx/gfiberwithunifi, and have made
 a complete backup of your UniFi configuration!!
 "@
