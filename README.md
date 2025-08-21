@@ -32,3 +32,8 @@ For this script to function, you must have the following set on your unifi equip
 ## Notes
 
 Updating or resetting your UniFi controller will remove the changes made by this script. If you update your equipment you must re-run this script to restore the changes.
+
+
+## Manual Setup (Without Using Script)
+
+ Please follow the guide at https://github.com/xkodyhuskyx/gfiberwithunifi/wiki/Manual-Setup-(Without-Using-Script)
