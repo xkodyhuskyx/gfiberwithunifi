@@ -11,6 +11,7 @@ This script has only been tested on the following devices:
 
 - UniFi Dream Machine Pro Special Edition (FW 4.3.6)
 - UniFi Dream Machine Pro (FW 4.3.6)
+- UniFi Dream Douter (FW 4.3.9)
 
 Note: While it has been verified to function with these devices, it is not guaranteed to work on all devices or configurations. Please proceed with caution and at your own risk.
 
