@@ -1,7 +1,7 @@
 # Google Fiber Business Static IP Blocks With UniFi
 A PowerShell 5.1–compatible script designed to enable Google Fiber static IP blocks on UniFi equipment that connects to a UniFi controller over SSH (via Posh-SSH), checks for a specific crontab entry, and—if missing—can insert it and reboot the device.
 
-# !! WARNING !!
+## !! WARNING !!
 Read the Disclaimer before performing any actions or using this script!! Back up your controller configurations!!!
 
 This is still in development and the documentation has not been fully created yet. Use at your own risk!
@@ -9,9 +9,13 @@ This is still in development and the documentation has not been fully created ye
 ## Supported Devices
 This script has only been tested on the following devices:
 
-- UniFi Dream Machine Pro Special Edition (FW 4.3.6)
-- UniFi Dream Machine Pro (FW 4.3.6)
-- UniFi Dream Douter (FW 4.3.9)
+| Machine Name | Code Name | Firmware |
+| :--- | :---: | :---: |
+| [Unifi Dream Machine Pro Special Edition](https://store.ui.com/products/udm-se?ref_id=github) | UDM-SE | 4.3.6 |
+| [UniFi Dream Machine Pro](https://store.ui.com/products/udm-pro) | UDM-PRO | 4.3.6 |
+| [UniFi Dream Machine](https://store.ui.com/products/udm) | UDM | 4.3.6 |
+| [UniFi Dream Router 7](https://store.ui.com/products/udr7) | UDR7 | 4.3.9 |
+| [UniFi Dream Router](https://store.ui.com/products/udr) | UDR | 4.3.9 |
 
 Note: While it has been verified to function with these devices, it is not guaranteed to work on all devices or configurations. Please proceed with caution and at your own risk.
 
