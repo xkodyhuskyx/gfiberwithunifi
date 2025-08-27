@@ -38,7 +38,7 @@ For this script to function correctly, you must have the following configured on
     - Prefix Delegation Size: `56` (This May Or May Not Work For Your Connection)
 - SSH must be configured and enabled on your UniFi equipment. (Default username is root)
 
-If you are unsure how to configure any of the settings mentioned above, please refer to Step 1 in the [manual setup guide](https://github.com/xkodyhuskyx/gfiberwithunifi/wiki/Manual-Setup-(Without-Using-Script)) for detailed instructions.
+If you are unsure how to configure any of the settings mentioned above, please refer to Step 1 and Step 2 in the [manual setup guide](https://github.com/xkodyhuskyx/gfiberwithunifi/wiki/Manual-Setup-(Without-Using-Script)) for detailed instructions.
 
 ## Script Usage
 
