@@ -3,7 +3,7 @@ A PowerShell 5.1–compatible script designed to enable Google Fiber static IP b
 
 You may also follow the step-by-step guide below to manually apply the necessary changes to your equipment, instead of using the script provided in this repository.
 
-https://github.com/xkodyhuskyx/gfiberwithunifi/wiki/Manual-Setup-(Without-Using-Script)
+https://www.thefloofyfox.com/guides/technical/gfiber-with-unifi
 
 ## !! WARNING !!
 Read the [Disclaimer](https://github.com/xkodyhuskyx/gfiberwithunifi/blob/main/DISCLAIMER.md) before performing any actions or using this script!! Back up your controller configurations!!!
