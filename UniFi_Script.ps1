@@ -113,7 +113,9 @@ function Disconnect-Exit() {
     Write-MultiColor -Text "Connection Status: ","DISCONNECTED                 ","Session ID: ","N/A" -Color White,Red,White,Red
     Write-Host "$divider`n" -ForegroundColor Magenta
     Write-Host "Disconnecting from UniFi Controller...`n" -ForegroundColor White
-    Remove-SSHSession -SessionId $session.SessionId | Out-Null
+    if ($null -ne $session -and $session.SessionId) {
+        try { Remove-SSHSession -SessionId $session.SessionId | Out-Null } catch { }
+    }
     Write-Host "Exiting..." -ForegroundColor White
     exit 0
 }
