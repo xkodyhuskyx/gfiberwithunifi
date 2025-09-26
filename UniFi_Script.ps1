@@ -24,7 +24,7 @@
 
 
 # ------------------ Check Powershell Version -----------------
-if ($PSVersionTable.PSVersion.Major -ne 5 -or $PSVersionTable.PSVersion.Minor -ne 1) {
+if (-not ($PSVersionTable.PSVersion.Major -eq 5 -and $PSVersionTable.PSVersion.Minor -eq 1)) {
     Write-Host "Error: This script requires PowerShell version 5.1." -ForegroundColor Red
     exit 1
 }
