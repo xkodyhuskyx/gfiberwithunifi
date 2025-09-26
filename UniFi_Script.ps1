@@ -318,7 +318,7 @@ if ($resp.ExitStatus -eq 0) {
         Disconnect-Exit
     }
     Write-Host "`nInserting cron line…"
-    $insertcron = "(crontab -l; echo '$cronjob') | crontab -"
+    $insertcron = "(crontab -l 2>/dev/null; echo '$cronjob') | crontab -"
     $rc = Invoke-SSHCommand -Index $session.SessionId -Command "$insertcron" -ErrorAction SilentlyContinue
     Write-Host "Cron added sucessfully.`n" -ForegroundColor Green
     Write-Host "Rebooting device…"
