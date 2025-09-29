@@ -5,7 +5,7 @@ You may also follow the step-by-step guide below to manually apply the necessary
 
 https://www.thefloofyfox.com/guides/technical/gfiber-with-unifi
 
-This script and guide is actively maintained and will updated as changes are needed. I will also respond to any issues posted within 48 hours.
+This script and guide is actively maintained and will be updated as changes are needed. I will also respond to any issues posted within 48 hours.
 
 ## !! WARNING !!
 Read the [Disclaimer](https://github.com/xkodyhuskyx/gfiberwithunifi/blob/main/DISCLAIMER.md) before performing any actions or using this script!! Back up your controller configurations!!!
